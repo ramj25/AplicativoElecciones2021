@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:alpha="0.85"
+    android:layout_margin="5dp">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_margin="5dp"
+    android:gravity="center_vertical"
+
+    >
+
+    <ImageView
+        android:id="@+id/imgNumeroCon"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/txtNombreCon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="fgfgfg"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llCon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="50dp"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:id="@+id/txtProfesionCon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:text="fgfgfg"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/txtEdadCon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:text="fgfgfg"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
